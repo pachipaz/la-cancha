@@ -1,0 +1,70 @@
+.cancha {
+	width: 1000px;
+	height: 500px;
+	background-color: #8FBC8F;
+	position: static;	
+	
+}
+.borde {
+	border: 1px solid #fff;
+	width: 900px;
+	height: 380px;
+	padding: 30px 20px;
+	margin: 25px 25px;
+	position: absolute;
+}
+.arco1 {
+	border:1px solid #fff;
+	position: relative;
+	width: 120px;
+	height: 250px;
+	top:130px;
+	left:24px;
+}
+.arco2 {
+	border:1px solid #fff;
+	position: relative;
+	width: 120px;
+	height: 250px;
+	top:-122px;
+	left: 845px;
+}
+.centro {
+	border-radius:100px;
+	border: 1px solid #fff;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	left: 425px;
+	top: -350px;
+}
+.pelota1 {
+	border-radius: 20px;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background-image: url("../img/bola.png");
+	right: 1000px;
+	bottom: 530px;
+	left:140px;
+}
+.pelota2 {
+	border-radius: 20px;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background-image: url("../img/bola.png");
+	right: 600px;
+	bottom: 600px;
+	left:575px;
+}
+.pelota3 {
+	border-radius: 20px;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background-image: url("../img/bola.png");
+	right: 800px;
+	bottom: 310px;
+	left:824px;
+}
